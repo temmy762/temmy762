@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="132" viewBox="0 0 840 132" role="img" aria-label="GitHub achievements">
+<title>GitHub achievements</title>
+<style>.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif}.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace}.t{animation:up .6s ease-out both}@keyframes up{from{opacity:0;transform:translateY(6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<g class="t" style="animation-delay:0.00s">
+<rect x="0.5" y="0.5" width="129" height="131" rx="8" fill="#071013" stroke="#1f3a36"/>
+<path d="M49 20h32v10a16 16 0 0 1-32 0z" fill="#3ee6c4"/>
+<path d="M49 24h-6a6 6 0 0 0 6 10M81 24h6a6 6 0 0 1-6 10" fill="none" stroke="#3ee6c4" stroke-width="2.5"/>
+<rect x="62" y="45" width="6" height="8" fill="#3ee6c4"/><rect x="53" y="53" width="24" height="5" rx="2" fill="#3ee6c4"/>
+<text x="65" y="37" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#071013">A</text>
+<text x="65" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#e6edf3">Projects</text>
+<text x="65" y="106" text-anchor="middle" class="mono" font-size="13" fill="#c3cbd3">22</text>
+</g>
+<g class="t" style="animation-delay:0.08s">
+<rect x="142.5" y="0.5" width="129" height="131" rx="8" fill="#071013" stroke="#1f3a36"/>
+<path d="M191 20h32v10a16 16 0 0 1-32 0z" fill="#c3cbd3"/>
+<path d="M191 24h-6a6 6 0 0 0 6 10M223 24h6a6 6 0 0 1-6 10" fill="none" stroke="#c3cbd3" stroke-width="2.5"/>
+<rect x="204" y="45" width="6" height="8" fill="#c3cbd3"/><rect x="195" y="53" width="24" height="5" rx="2" fill="#c3cbd3"/>
+<text x="207" y="37" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#071013">C</text>
+<text x="207" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#e6edf3">Contributions</text>
+<text x="207" y="106" text-anchor="middle" class="mono" font-size="13" fill="#c3cbd3">67</text>
+</g>
+<g class="t" style="animation-delay:0.16s">
+<rect x="284.5" y="0.5" width="129" height="131" rx="8" fill="#071013" stroke="#1f3a36"/>
+<path d="M333 20h32v10a16 16 0 0 1-32 0z" fill="#30363d"/>
+<path d="M333 24h-6a6 6 0 0 0 6 10M365 24h6a6 6 0 0 1-6 10" fill="none" stroke="#30363d" stroke-width="2.5"/>
+<rect x="346" y="45" width="6" height="8" fill="#30363d"/><rect x="337" y="53" width="24" height="5" rx="2" fill="#30363d"/>
+<text x="349" y="37" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#071013"></text>
+<text x="349" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#e6edf3">Pull requests</text>
+<text x="349" y="106" text-anchor="middle" class="mono" font-size="13" fill="#c3cbd3">0</text>
+</g>
+<g class="t" style="animation-delay:0.24s">
+<rect x="426.5" y="0.5" width="129" height="131" rx="8" fill="#071013" stroke="#1f3a36"/>
+<path d="M475 20h32v10a16 16 0 0 1-32 0z" fill="#3ee6c4"/>
+<path d="M475 24h-6a6 6 0 0 0 6 10M507 24h6a6 6 0 0 1-6 10" fill="none" stroke="#3ee6c4" stroke-width="2.5"/>
+<rect x="488" y="45" width="6" height="8" fill="#3ee6c4"/><rect x="479" y="53" width="24" height="5" rx="2" fill="#3ee6c4"/>
+<text x="491" y="37" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#071013">A</text>
+<text x="491" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#e6edf3">Languages</text>
+<text x="491" y="106" text-anchor="middle" class="mono" font-size="13" fill="#c3cbd3">6</text>
+</g>
+<g class="t" style="animation-delay:0.32s">
+<rect x="568.5" y="0.5" width="129" height="131" rx="8" fill="#071013" stroke="#1f3a36"/>
+<path d="M617 20h32v10a16 16 0 0 1-32 0z" fill="#3ee6c4"/>
+<path d="M617 24h-6a6 6 0 0 0 6 10M649 24h6a6 6 0 0 1-6 10" fill="none" stroke="#3ee6c4" stroke-width="2.5"/>
+<rect x="630" y="45" width="6" height="8" fill="#3ee6c4"/><rect x="621" y="53" width="24" height="5" rx="2" fill="#3ee6c4"/>
+<text x="633" y="37" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#071013">A</text>
+<text x="633" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#e6edf3">Experience</text>
+<text x="633" y="106" text-anchor="middle" class="mono" font-size="13" fill="#c3cbd3">4 yrs</text>
+</g>
+<g class="t" style="animation-delay:0.40s">
+<rect x="710.5" y="0.5" width="129" height="131" rx="8" fill="#071013" stroke="#1f3a36"/>
+<path d="M759 20h32v10a16 16 0 0 1-32 0z" fill="#c3cbd3"/>
+<path d="M759 24h-6a6 6 0 0 0 6 10M791 24h6a6 6 0 0 1-6 10" fill="none" stroke="#c3cbd3" stroke-width="2.5"/>
+<rect x="772" y="45" width="6" height="8" fill="#c3cbd3"/><rect x="763" y="53" width="24" height="5" rx="2" fill="#c3cbd3"/>
+<text x="775" y="37" text-anchor="middle" class="mono" font-size="11" font-weight="800" fill="#071013">C</text>
+<text x="775" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="700" fill="#e6edf3">Followers</text>
+<text x="775" y="106" text-anchor="middle" class="mono" font-size="13" fill="#c3cbd3">2</text>
+</g>
+</svg>

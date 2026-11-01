@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="462" viewBox="0 0 840 462" role="img" aria-label="GitHub activity: 22 public projects, 67 contributions in the last 12 months">
+<title>GitHub activity: 22 public projects, 67 contributions in the last 12 months</title>
+<style>.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif}.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace}.seg{animation:fade .6s ease-out both}@keyframes fade{from{opacity:0}}.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.6s ease-out .2s forwards}@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<rect x="0.5" y="0.5" width="371" height="213" rx="8" fill="#071013" stroke="#1f3a36"/>
+<text x="18" y="32" class="sans" font-size="15" font-weight="700" fill="#e6edf3">At a glance</text>
+<line x1="18" x2="172" y1="64" y2="64" stroke="#30363d"/>
+<text x="18" y="96" class="mono" font-size="26" font-weight="700" fill="#e6edf3">22</text>
+<text x="18" y="116" class="sans" font-size="12" fill="#8b949e">Public projects</text>
+<line x1="186" x2="340" y1="64" y2="64" stroke="#30363d"/>
+<text x="186" y="96" class="mono" font-size="26" font-weight="700" fill="#e6edf3">6</text>
+<text x="186" y="116" class="sans" font-size="12" fill="#8b949e">Languages used</text>
+<line x1="18" x2="172" y1="136" y2="136" stroke="#30363d"/>
+<text x="18" y="168" class="mono" font-size="26" font-weight="700" fill="#e6edf3">2022</text>
+<text x="18" y="188" class="sans" font-size="12" fill="#8b949e">On GitHub since</text>
+<line x1="186" x2="340" y1="136" y2="136" stroke="#30363d"/>
+<text x="186" y="168" class="mono" font-size="26" font-weight="700" fill="#e6edf3">67</text>
+<text x="186" y="188" class="sans" font-size="12" fill="#8b949e">Contributions, last 12 months</text>
+<rect x="384.5" y="0.5" width="455" height="213" rx="8" fill="#071013" stroke="#1f3a36"/>
+<text x="402" y="32" class="sans" font-size="15" font-weight="700" fill="#e6edf3">Languages across my projects</text>
+<path class="seg" style="animation-delay:0.00s" d="M477.98 56.03A66 66 0 0 1 477.98 187.97L477.29 164.98A43 43 0 0 0 477.29 79.02Z" fill="#d95926"><title>HTML: 9</title></path>
+<path class="seg" style="animation-delay:0.08s" d="M474.02 187.97A66 66 0 0 1 411.38 135.41L433.90 130.73A43 43 0 0 0 474.71 164.98Z" fill="#3987e5"><title>TypeScript: 4</title></path>
+<path class="seg" style="animation-delay:0.16s" d="M410.69 131.51A66 66 0 0 1 417.88 90.73L438.13 101.63A43 43 0 0 0 433.45 128.19Z" fill="#199e70"><title>JavaScript: 2</title></path>
+<path class="seg" style="animation-delay:0.24s" d="M419.86 87.30A66 66 0 0 1 432.08 72.74L447.38 89.90A43 43 0 0 0 439.42 99.39Z" fill="#c98500"><title>CSS: 1</title></path>
+<path class="seg" style="animation-delay:0.32s" d="M435.11 70.19A66 66 0 0 1 451.58 60.69L460.09 82.05A43 43 0 0 0 449.36 88.25Z" fill="#9085e9"><title>Java: 1</title></path>
+<path class="seg" style="animation-delay:0.40s" d="M455.30 59.33A66 66 0 0 1 474.02 56.03L474.71 79.02A43 43 0 0 0 462.51 81.17Z" fill="#d55181"><title>Python: 1</title></path>
+<text x="476" y="126" text-anchor="middle" class="mono" font-size="22" font-weight="700" fill="#e6edf3">18</text>
+<text x="476" y="143" text-anchor="middle" class="sans" font-size="10.5" fill="#8b949e">projects</text>
+<rect x="570" y="57" width="10" height="10" rx="2" fill="#d95926"/>
+<text x="588" y="66" class="sans" font-size="12.5" fill="#e6edf3">HTML</text>
+<text x="822" y="66" text-anchor="end" class="mono" font-size="12" fill="#c3cbd3">9 · 50%</text>
+<rect x="570" y="78" width="10" height="10" rx="2" fill="#3987e5"/>
+<text x="588" y="87" class="sans" font-size="12.5" fill="#e6edf3">TypeScript</text>
+<text x="822" y="87" text-anchor="end" class="mono" font-size="12" fill="#c3cbd3">4 · 22%</text>
+<rect x="570" y="99" width="10" height="10" rx="2" fill="#199e70"/>
+<text x="588" y="108" class="sans" font-size="12.5" fill="#e6edf3">JavaScript</text>
+<text x="822" y="108" text-anchor="end" class="mono" font-size="12" fill="#c3cbd3">2 · 11%</text>
+<rect x="570" y="120" width="10" height="10" rx="2" fill="#c98500"/>
+<text x="588" y="129" class="sans" font-size="12.5" fill="#e6edf3">CSS</text>
+<text x="822" y="129" text-anchor="end" class="mono" font-size="12" fill="#c3cbd3">1 · 6%</text>
+<rect x="570" y="141" width="10" height="10" rx="2" fill="#9085e9"/>
+<text x="588" y="150" class="sans" font-size="12.5" fill="#e6edf3">Java</text>
+<text x="822" y="150" text-anchor="end" class="mono" font-size="12" fill="#c3cbd3">1 · 6%</text>
+<rect x="570" y="162" width="10" height="10" rx="2" fill="#d55181"/>
+<text x="588" y="171" class="sans" font-size="12.5" fill="#e6edf3">Python</text>
+<text x="822" y="171" text-anchor="end" class="mono" font-size="12" fill="#c3cbd3">1 · 6%</text>
+<text x="402" y="200" class="sans" font-size="11" fill="#8b949e">Number of public projects per main language</text>
+<rect x="0.5" y="226.5" width="839" height="235" rx="8" fill="#071013" stroke="#1f3a36"/>
+<text x="18" y="258" class="sans" font-size="15" font-weight="700" fill="#e6edf3">Contributions per month</text>
+<line x1="54" x2="810" y1="420.0" y2="420.0" stroke="#30363d" />
+<text x="44" y="424.0" text-anchor="end" class="mono" font-size="11" fill="#8b949e">0</text>
+<line x1="54" x2="810" y1="386.0" y2="386.0" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="44" y="390.0" text-anchor="end" class="mono" font-size="11" fill="#8b949e">10</text>
+<line x1="54" x2="810" y1="352.0" y2="352.0" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="44" y="356.0" text-anchor="end" class="mono" font-size="11" fill="#8b949e">20</text>
+<line x1="54" x2="810" y1="318.0" y2="318.0" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="44" y="322.0" text-anchor="end" class="mono" font-size="11" fill="#8b949e">30</text>
+<line x1="54" x2="810" y1="284.0" y2="284.0" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="44" y="288.0" text-anchor="end" class="mono" font-size="11" fill="#8b949e">40</text>
+<text x="54.0" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Nov</text>
+<text x="122.7" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Dec</text>
+<text x="191.5" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Jan</text>
+<text x="260.2" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Feb</text>
+<text x="328.9" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Mar</text>
+<text x="397.6" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Apr</text>
+<text x="466.4" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">May</text>
+<text x="535.1" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Jun</text>
+<text x="603.8" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Jul</text>
+<text x="672.5" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Aug</text>
+<text x="741.3" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Sep</text>
+<text x="810.0" y="442" text-anchor="middle" class="sans" font-size="11" fill="#8b949e">Oct</text>
+<defs><linearGradient id="area" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#3ee6c4" stop-opacity=".28"/><stop offset="1" stop-color="#3ee6c4" stop-opacity="0"/></linearGradient></defs>
+<path d="M54.0 413.2L122.7 413.2L191.5 396.2L260.2 375.8L328.9 420.0L397.6 420.0L466.4 406.4L535.1 420.0L603.8 420.0L672.5 420.0L741.3 420.0L810.0 294.2L810.0 420L54 420Z" fill="url(#area)"/>
+<path class="draw" d="M54.0 413.2L122.7 413.2L191.5 396.2L260.2 375.8L328.9 420.0L397.6 420.0L466.4 406.4L535.1 420.0L603.8 420.0L672.5 420.0L741.3 420.0L810.0 294.2" fill="none" stroke="#3ee6c4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1"/>
+<circle cx="54.0" cy="413.2" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Nov: 2</title></circle>
+<circle cx="122.7" cy="413.2" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Dec: 2</title></circle>
+<circle cx="191.5" cy="396.2" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Jan: 7</title></circle>
+<circle cx="260.2" cy="375.8" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Feb: 13</title></circle>
+<circle cx="328.9" cy="420.0" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Mar: 0</title></circle>
+<circle cx="397.6" cy="420.0" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Apr: 0</title></circle>
+<circle cx="466.4" cy="406.4" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>May: 4</title></circle>
+<circle cx="535.1" cy="420.0" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Jun: 0</title></circle>
+<circle cx="603.8" cy="420.0" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Jul: 0</title></circle>
+<circle cx="672.5" cy="420.0" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Aug: 0</title></circle>
+<circle cx="741.3" cy="420.0" r="2.5" fill="#071013" stroke="#3ee6c4" stroke-width="1.5"><title>Sep: 0</title></circle>
+<circle cx="810.0" cy="294.2" r="5" fill="#3ee6c4" stroke="#3ee6c4" stroke-width="2"><title>Oct: 37</title></circle>
+<text x="800.0" y="282.2" text-anchor="end" class="mono" font-size="12" fill="#e6edf3">37 in Oct</text>
+<text x="822" y="258" text-anchor="end" class="mono" font-size="11" fill="#8b949e">updated 2026-11-01</text>
+</svg>
