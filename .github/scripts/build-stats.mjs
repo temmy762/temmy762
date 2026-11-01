@@ -39,6 +39,7 @@ async function fetchData() {
       pullRequests{ totalCount }
       repositories(ownerAffiliations:OWNER, privacy:PUBLIC, isFork:false, first:100){ totalCount nodes{ name primaryLanguage{ name } } }
       contributionsCollection(from:$from, to:$to){
+        restrictedContributionsCount
         contributionCalendar{ totalContributions weeks{ contributionDays{ date contributionCount } } }
       }
     }}`;
@@ -58,6 +59,8 @@ async function fetchData() {
     repoLanguages: u.repositories.nodes.map((r) => r.primaryLanguage?.name || null),
     days: u.contributionsCollection.contributionCalendar.weeks.flatMap((w) => w.contributionDays),
     total: u.contributionsCollection.contributionCalendar.totalContributions,
+    // Contributions made in private repos: counted in the totals, but never named or linked.
+    privateCount: u.contributionsCollection.restrictedContributionsCount || 0,
     generatedAt: to.toISOString(),
   };
 }
@@ -130,6 +133,10 @@ function activitySvg(d) {
       `<text x="${x}" y="${y + 32}" class="mono" font-size="26" font-weight="700" fill="${C.fg}">${esc(v)}</text>`,
       `<text x="${x}" y="${y + 52}" class="sans" font-size="12" fill="${C.muted}">${esc(l)}</text>`);
   });
+
+  if (d.privateCount > 0) {
+    out.push(`<text x="18" y="${topH - 12}" class="sans" font-size="11" fill="${C.muted}">Includes ${fmt(d.privateCount)} contributions to private projects</text>`);
+  }
 
   // --- Languages donut
   const lx = leftW + gap;
