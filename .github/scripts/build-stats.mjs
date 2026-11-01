@@ -33,6 +33,7 @@ async function fetchData() {
   const to = new Date();
   const from = new Date(to); from.setUTCFullYear(from.getUTCFullYear() - 1); from.setUTCDate(1);
   const query = `query($login:String!, $from:DateTime!, $to:DateTime!){
+    viewer{ login }
     user(login:$login){
       createdAt
       followers{ totalCount }
@@ -55,12 +56,15 @@ async function fetchData() {
   const body = await res.json();
   if (!res.ok || body.errors) throw new Error(JSON.stringify(body.errors || body).slice(0, 500));
   const u = body.data.user;
+  // Diagnostics (counts only; no private repository names are logged).
+  console.log(`Signed in as: ${body.data.viewer?.login || "unknown"} (a personal token shows your username; the default token shows a bot)`);
   const cc = u.contributionsCollection;
   // Private work: counts only. Repository names are never read into the output.
   const privateVisible = ["commitContributionsByRepository", "issueContributionsByRepository", "pullRequestContributionsByRepository", "pullRequestReviewContributionsByRepository"]
     .flatMap((k) => cc[k] || [])
     .filter((x) => x.repository?.isPrivate)
     .reduce((sum, x) => sum + (x.contributions?.totalCount || 0), 0);
+  console.log(`Private contributions: ${cc.restrictedContributionsCount || 0} hidden from this token, ${privateVisible} visible to it`);
   return {
     createdAt: u.createdAt,
     followers: u.followers.totalCount,
