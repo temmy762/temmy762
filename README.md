@@ -35,14 +35,7 @@
 
 ### GitHub activity
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=temmy762&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3ee6c4&icon_color=3ee6c4&text_color=c3cbd3&ring_color=3ee6c4&custom_title=At%20a%20glance" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=temmy762&layout=donut&langs_count=6&hide_border=true&bg_color=0d1117&title_color=3ee6c4&text_color=c3cbd3&custom_title=Languages%20across%20my%20projects" height="170" alt="Most used languages" />
-</p>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=temmy762&bg_color=0d1117&color=c3cbd3&line=3ee6c4&point=e6edf3&area=true&area_color=3ee6c4&hide_border=true&custom_title=Contributions%20over%20time" width="100%" alt="Contribution activity graph" />
-
-<img src="https://streak-stats.demolab.com?user=temmy762&hide_border=true&background=0d1117&ring=3ee6c4&fire=f2b84b&currStreakLabel=3ee6c4&sideLabels=c3cbd3&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e&stroke=30363d" width="100%" alt="Coding streak" />
+<img src="./assets/stats/activity.svg" width="100%" alt="GitHub activity: projects, languages and contributions per month" />
 
 ### A year of coding
 
@@ -56,7 +49,7 @@ Each square is a day I wrote code. Brighter green means more work that day. The 
 
 ### GitHub achievements
 
-<img src="https://github-profile-trophy.vercel.app/?username=temmy762&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" width="100%" alt="GitHub trophies" />
+<img src="./assets/stats/achievements.svg" width="100%" alt="GitHub achievements" />
 
 ### Questions clients ask
 
