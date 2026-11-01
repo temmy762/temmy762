@@ -40,6 +40,10 @@ async function fetchData() {
       repositories(ownerAffiliations:OWNER, privacy:PUBLIC, isFork:false, first:100){ totalCount nodes{ name primaryLanguage{ name } } }
       contributionsCollection(from:$from, to:$to){
         restrictedContributionsCount
+        commitContributionsByRepository(maxRepositories:100){ repository{ isPrivate } contributions{ totalCount } }
+        issueContributionsByRepository(maxRepositories:100){ repository{ isPrivate } contributions{ totalCount } }
+        pullRequestContributionsByRepository(maxRepositories:100){ repository{ isPrivate } contributions{ totalCount } }
+        pullRequestReviewContributionsByRepository(maxRepositories:100){ repository{ isPrivate } contributions{ totalCount } }
         contributionCalendar{ totalContributions weeks{ contributionDays{ date contributionCount } } }
       }
     }}`;
@@ -51,6 +55,12 @@ async function fetchData() {
   const body = await res.json();
   if (!res.ok || body.errors) throw new Error(JSON.stringify(body.errors || body).slice(0, 500));
   const u = body.data.user;
+  const cc = u.contributionsCollection;
+  // Private work: counts only. Repository names are never read into the output.
+  const privateVisible = ["commitContributionsByRepository", "issueContributionsByRepository", "pullRequestContributionsByRepository", "pullRequestReviewContributionsByRepository"]
+    .flatMap((k) => cc[k] || [])
+    .filter((x) => x.repository?.isPrivate)
+    .reduce((sum, x) => sum + (x.contributions?.totalCount || 0), 0);
   return {
     createdAt: u.createdAt,
     followers: u.followers.totalCount,
@@ -60,7 +70,7 @@ async function fetchData() {
     days: u.contributionsCollection.contributionCalendar.weeks.flatMap((w) => w.contributionDays),
     total: u.contributionsCollection.contributionCalendar.totalContributions,
     // Contributions made in private repos: counted in the totals, but never named or linked.
-    privateCount: u.contributionsCollection.restrictedContributionsCount || 0,
+    privateCount: (cc.restrictedContributionsCount || 0) + privateVisible,
     generatedAt: to.toISOString(),
   };
 }

@@ -31,7 +31,8 @@ jobs:
       - name: Build stats images
         run: node .github/scripts/build-stats.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # STATS_TOKEN (optional, read-only) lets the stats count private contributions.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Commit if changed
         run: |
